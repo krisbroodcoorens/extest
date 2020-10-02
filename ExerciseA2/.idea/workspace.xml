@@ -23,10 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="747ebf20-5bca-454f-923b-4048f0404e0d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ExerciseA3/ExerciseA3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExerciseA3/src/main/java/be/abis/exercise/model/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExerciseA3/src/main/java/be/abis/exercise/model/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExerciseA3/src/main/java/be/abis/exercise/model/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExerciseA4/Exercise A4.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +62,7 @@
     <property name="Repository.Attach.Sources" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/be/abis/exercise/model" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -119,6 +116,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="94" key="#Project_Structure" timestamp="1601635068844">
@@ -133,22 +131,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="743" y="385" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1601635080086" />
-    <state width="1877" height="274" key="GridCell.Tab.0.bottom" timestamp="1601636438077">
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom" timestamp="1601638978043">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601636438077" />
-    <state width="1877" height="274" key="GridCell.Tab.0.center" timestamp="1601636438077">
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601638978043" />
+    <state width="1877" height="274" key="GridCell.Tab.0.center" timestamp="1601638978043">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601636438077" />
-    <state width="1877" height="274" key="GridCell.Tab.0.left" timestamp="1601636438077">
+    <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601638978043" />
+    <state width="1877" height="274" key="GridCell.Tab.0.left" timestamp="1601638978043">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601636438077" />
-    <state width="1877" height="274" key="GridCell.Tab.0.right" timestamp="1601636438077">
+    <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601638978043" />
+    <state width="1877" height="274" key="GridCell.Tab.0.right" timestamp="1601638978043">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601636438077" />
+    <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601638978043" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1601635027121">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
