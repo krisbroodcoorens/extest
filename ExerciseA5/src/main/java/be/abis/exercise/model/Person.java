@@ -65,7 +65,7 @@ public class Person {
 
 	@Override
 	public String toString() {
-		String text = "Person " + this.personNumber + ": " + this.firstName + " " +this.lastName + " (" +this.calculateAge()+ " years old)";
+		String text = "Person " +this.firstName + " " +this.lastName + " (" +this.calculateAge()+ " years old)";
 		if (this.company != null) {
 			text+= " works for " + this.company.getName() + " in " + this.company.getAddress().getTown() + ".";
 		} else {

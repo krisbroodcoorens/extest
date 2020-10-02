@@ -30,11 +30,11 @@ public class TestPerson
     {
         //Arrange
         Person myPerson = new Person(1234,"Nathalie","Moerman", LocalDate.of(1976, 6, 28));
-        String expectedStringName = "Nathalie Moerman";
+        String expectedStringName = "Person " +myPerson.getFirstName()+ " " +myPerson.getLastName();
         System.out.println(expectedStringName);
 
         //Act
-        String actualStringName = myPerson.getFirstName() + " " + myPerson.getLastName();
+        String actualStringName = myPerson.toString();
         System.out.println(actualStringName);
 
         //AssertThat
