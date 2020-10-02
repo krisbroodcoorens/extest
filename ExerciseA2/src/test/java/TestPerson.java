@@ -1,9 +1,9 @@
-package be.abis.exercise.ut;
-
 import be.abis.exercise.model.Person;
 import org.junit.Test;
+
 import java.time.LocalDate;
-import static org.junit.Assert.*;
+
+import static org.junit.Assert.assertEquals;
 
 public class TestPerson
 {
