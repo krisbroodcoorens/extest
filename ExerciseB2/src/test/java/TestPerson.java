@@ -7,10 +7,11 @@ import java.time.LocalDate;
 import static org.hamcrest.CoreMatchers.*;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.junit.jupiter.api.Assertions.assertEquals;
-
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 @DisplayName("Person class - Unit Tests")
-public class TestPerson {
+public class TestPerson
+{
     Person myPerson;
     Person mySecondPerson;
 
@@ -47,8 +48,8 @@ public class TestPerson {
         @DisplayName("Test if exception is thrown when person is younger than 18")
         public void throwExceptionWhenPersonIsYoungerThan18() throws PersonShouldBeOlderThan18Exception
         {
-            mySecondPerson.calculateAge();
-            System.out.print(mySecondPerson.calculateAge());
+            Throwable exception = assertThrows(PersonShouldBeOlderThan18Exception.class, () -> mySecondPerson.calculateAge());
+            assertEquals("Person is younger than 18", exception.getMessage());
         }
     }
 
