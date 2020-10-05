@@ -1,26 +1,24 @@
 import be.abis.exercise.exception.PersonShouldBeOlderThan18Exception;
 import be.abis.exercise.model.Person;
 
-import org.junit.Before;
-import org.junit.Test;
-
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 import java.time.LocalDate;
-
 import static org.hamcrest.CoreMatchers.*;
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertThat;
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class TestPerson
 {
     Person myPerson;
     Person mySecondPerson;
 
-    @Before
+    @BeforeEach
     public void setUp()
     {
         //Recreate the person before each test
-        myPerson = new Person(1234, "Nathalie", "Moerman", LocalDate.of(2000, 6, 28));
-        mySecondPerson = new Person(4567, "Stefan,", "Degand", LocalDate.of(2000, 6, 28));
+        myPerson = new Person(1234, "Nathalie", "Moerman", LocalDate.of(1976, 6, 28));
+        mySecondPerson = new Person(4567, "Stefan,", "Degand", LocalDate.of(1976, 6, 28));
     }
 
     @Test
@@ -54,7 +52,7 @@ public class TestPerson
         assertThat(actualStringName, startsWith(expectedStringName));
     }
 
-    @Test(expected=PersonShouldBeOlderThan18Exception.class)
+    @Test
     public void throwExceptionWhenPersonIsYoungerThan18 () throws PersonShouldBeOlderThan18Exception
     {
         mySecondPerson.calculateAge();

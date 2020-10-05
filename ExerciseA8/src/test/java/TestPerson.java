@@ -1,6 +1,5 @@
 import be.abis.exercise.exception.PersonShouldBeOlderThan18Exception;
 import be.abis.exercise.model.Person;
-
 import org.junit.Before;
 import org.junit.Test;
 
@@ -20,7 +19,7 @@ public class TestPerson
     {
         //Recreate the person before each test
         myPerson = new Person(1234, "Nathalie", "Moerman", LocalDate.of(2000, 6, 28));
-        mySecondPerson = new Person(4567, "Stefan,", "Degand", LocalDate.of(2000, 6, 28));
+        mySecondPerson = new Person(4567, "Stefan,", "Degand", LocalDate.of(2007, 6, 28));
     }
 
     @Test

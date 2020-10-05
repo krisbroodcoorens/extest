@@ -90,13 +90,9 @@ public class Person {
 		return text;
 	}
 
-	public int calculateAge() throws PersonShouldBeOlderThan18Exception
-	{
-		System.out.println(Period.between(this.birthDay, LocalDate.now()).getYears());
-		if (Period.between(this.birthDay, LocalDate.now()).getYears()<18)
-		{
-			throw new PersonShouldBeOlderThan18Exception("Person is younger than 18");
-		}
-		return Period.between(this.birthDay, LocalDate.now()).getYears();
+	public int calculateAge() throws PersonShouldBeOlderThan18Exception {
+		int age = Period.between(birthDay, LocalDate.now()).getYears();
+		if (age<18) throw new PersonShouldBeOlderThan18Exception("person is not an adult");
+		return age;
 	}
 }
